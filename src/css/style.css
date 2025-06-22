@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.6)), url(../img/para\ body.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #111;
+    font-family: 'Segoe UI', sans-serif;
+    color: white;
+}
+
+
+.carde img {
+    width: 100%;
+    max-width: 220px;
+    height: auto;
+    margin: 20px auto;
+    display: block;
+}
+
+
+.principal {
+    height: 200px;
+    border-radius: 12px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.redesociais {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.redecard img {
+    width: 36px;
+    height: 36px;
+    margin: 0 10px;
+    transition: transform 0.3s ease;
+}
+
+.redecard img:hover {
+    transform: scale(1.1);
+}
+
+
+.informacao h1 {
+    text-align: center;
+    margin: 30px 20px 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #f1f1f1;
+    text-transform: uppercase;
+    line-height: 1.4;
+}
+
+
+.info{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.6)), url(../img/para\ cardes.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #222;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.info2{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.6)), url(../img/banner-barbearia.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #222;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.info {
+    background-color: #2c2c2c;
+    border-left: 6px solid #330be9;
+}
+
+.info2 {
+    background-color: #2c2c2c;
+    border-left: 6px solid #a00404;
+}
+
+h2 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.contato img{
+        width: 30%;
+    }
+
+    .contato{
+        text-align: center;
+    }
+
+    .footer{
+      text-align: center;
+      margin-bottom: 10px;
+      font-size: 0.85rem;
+      color: #aaa;
+    }
+
+    a{
+        text-decoration: none;
+        color: #aaa;
+    }
+
+    a:hover{
+        color: white;
+    }
+
+
+@media (max-width: 768px) {
+    .principal {
+        height: 150px;
+        margin: 15px;
+    }
+
+    .informacao h1 {
+        font-size: 18px;
+    }
+
+    h2 {
+        font-size: 14px;
+    }
+
+    p {
+        font-size: 13px;
+    }
+
+    .info, .info2 {
+        margin: 15px;
+        padding: 12px;
+    }
+
+    .redecard img {
+        width: 30px;
+        height: 30px;
+        margin: 0 8px;
+    }
+}
+
+@media (max-width: 480px) {
+    .principal {
+        height: 120px;
+    }
+
+    .carde img {
+        max-width: 160px;
+    }
+
+    .cardes img {
+        max-width: 90px;
+       height: 90px;
+        margin-left: 20px;
+        border-radius: 20px;
+    }
+
+    .contato img{
+        width: 255px;
+    }
+
+    .contato{
+        text-align: center;
+    }
+
+    .informacao h1 {
+        font-size: 13px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+    .informacao h1 {
+        font-size: 18px;
+    }
+    .info p {
+        font-family: 'Courier New', Courier, monospace;
+    }
+    .info2 p {
+        font-family: 'Courier New', Courier, monospace;
+    }
+}
